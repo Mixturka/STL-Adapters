@@ -1,0 +1,1 @@
+add_library(Adapters Adapters.cpp Adapters.hpp) 
