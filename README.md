@@ -19,6 +19,6 @@ Adapters library that simplifies algorithms for STL containers. Library provides
 ```cpp
 std::vector<int> v = {1, 2, 3, 4, 5, 6};
 
-for(int i : v | filter([](int i){ return i % 2; }) | transform([](int i){ return i * i; }))
+for (int i : v | filter([](int i){ return i % 2; }) | transform([](int i){ return i * i; }))
      std::cout << i << " ";
 ```
